@@ -4,7 +4,7 @@ const migrationConfig = {
   wordpress: {
     url: '<WORDPRESS_URL>',
     authEndpoint: '/wp-json/jwt-auth/v1/token',
-    apiEndpoint: '/wp-json/wp/v2',
+    apiEndpoint: '/wp-json/wp/',
     credentials: {
       username: '<WP-USERNAME>',
       password: '<WP-PASSWORD>'
