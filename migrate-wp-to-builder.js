@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const { execSync } = require('child_process');
 const path = require('path');
-//const cliProgress = require('cli-progress');
+const cliProgress = require('cli-progress');
 
 // Simple console colors
 const colors = {
